@@ -30,8 +30,12 @@ main {
   text-align: center;
 }
 
-input, button, p {
+input, button, h2, p {
   font-family: $roboto;
+}
+
+h2, p {
+  font-weight: $medium;
 }
 
 input {
@@ -74,9 +78,17 @@ h1 {
   display: none;
 }
 
+h2 {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+
+  @include media-query('md-mob') {
+    font-size: 3rem;
+  }
+}
+
 p {
   position: absolute;
   top: 100%;
   margin-top: 1.25rem;
-  font-weight: $medium;
 }

@@ -7,13 +7,27 @@ String.prototype.sarcastic = function () {
     .join('');
 };
 
+function copyToClipboard(value) {
+  let tempInput = document.createElement("input");
+    tempInput.style = "position: absolute; left: -1000px; top: -1000px";
+    tempInput.value = value;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
+}
+
 function init() {
   let btn = document.querySelector('button'),
       input = document.querySelector('input'),
       result = document.querySelector('p');
 
-  btn.addEventListener('click', () => {
+  input.addEventListener('input', () => {
     result.innerText = input.value.sarcastic();
+  });
+
+  btn.addEventListener('click', () => {
+    copyToClipboard(result.innerText);
   });
 }
 
