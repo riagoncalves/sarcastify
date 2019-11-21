@@ -23,21 +23,46 @@ main {
   flex-direction: column;
 }
 
+input, button, p {
+  font-family: $roboto;
+}
+
 input {
-  padding: 5px;
-  border-radius: 5px;
-  box-shadow: none;
+  width: 40vw;
+  padding: 5px 20px;
+  border: none;
   outline: none;
-  border: 1px solid black;
+  font-size: 1.25rem;
+  border-bottom: 2px solid $grey;
+  transition: all 300ms;
+
+  &:active, &:hover, &:focus {
+    border-color: $black;
+  }
+
+  @include media-query('md-mob') {
+    width: 90vw;
+  }
 }
 
 button {
-  margin: 10px 0;
-  padding: 5px;
-  border: 1px solid black;
+  margin: 20px 0;
+  padding: 15px 25px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: $black;
+  color: $white;
+  font-weight: $sbold;
+  font-size: .9rem;
+  transition: all 300ms;
+  box-shadow: 10px 21px 20px -12px rgba(0,0,0,0.57);
+
+  &:hover {
+    transform: scale(.9);
+    box-shadow: none;
+  }
 }
 
 p {
-  font-family: $roboto;
   font-weight: $medium;
 }
