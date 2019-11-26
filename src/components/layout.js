@@ -1,4 +1,4 @@
-import Header from './Header';
+import Header from './header';
 import Head from "next/head";
 import "../assets/sass/style.scss";
 

@@ -1,4 +1,4 @@
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 
 String.prototype.sarcastic = function() {
   return [...this]
