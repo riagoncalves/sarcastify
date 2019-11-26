@@ -6,7 +6,7 @@ const Index = () => (
     <h2>Sarcastify</h2>
     <input type="text" placeholder="Write anything"></input>
     <button>Copy</button>
-    <p>wRiTe aNyThInG</p>
+    <p className="result">wRiTe aNyThInG</p>
   </Layout>
 );
 

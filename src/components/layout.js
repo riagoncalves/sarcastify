@@ -1,4 +1,4 @@
-import Header from './header';
+
 import Head from "next/head";
 import "../assets/js/common";
 import "../assets/sass/style.scss";

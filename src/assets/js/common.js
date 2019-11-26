@@ -18,15 +18,17 @@ let common = {
   init() {
     let btn = document.querySelector("button"),
     input = document.querySelector("input"),
-    result = document.querySelector("p");
-        
-    input.addEventListener("input", () => {
-      result.innerText = input.value.sarcastic();
-    });
-        
-    btn.addEventListener("click", () => {
-      this.copyToClipboard(result.innerText);
-    });
+    result = document.querySelector(".result");
+
+    if (input) {
+      input.addEventListener("input", () => {
+        result.innerText = input.value.sarcastic();
+      });
+      
+      btn.addEventListener("click", () => {
+        this.copyToClipboard(result.innerText);
+      });
+    } 
   }
 }
 
