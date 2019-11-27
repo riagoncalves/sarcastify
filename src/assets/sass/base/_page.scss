@@ -100,7 +100,7 @@ h2 {
 
 .about {
   h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 1rem 0;
   }
 
@@ -110,6 +110,7 @@ h2 {
 
   a {
     color: $black;
+    text-decoration: underline;
     transition: 200ms;
 
     &:hover {
