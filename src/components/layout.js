@@ -15,9 +15,11 @@ const Layout = props => (
       <meta property="og:description" content="Turn your text into a sarcastic one."/>
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Sarcastify | Meme Factory"/>
+      <meta property="og:image" content="https://sarcastify.s3-eu-west-1.amazonaws.com/thumbnail.jpg"/>
 
       <meta name="twitter:title" content="Sarcastify | Meme Factory"/>
       <meta name="twitter:description" content="Turn your text into a sarcastic one."/>
+      <meta name="twitter:image" content="https://sarcastify.s3-eu-west-1.amazonaws.com/thumbnail.jpg"/>
 
       <title>Sarcastify | Meme Factory</title>
       <meta name="description" content="Turn your text into a sarcastic one."/>
