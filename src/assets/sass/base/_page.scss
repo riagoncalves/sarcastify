@@ -13,6 +13,11 @@ body, #__next {
   -webkit-overflow-scrolling: touch;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 main {
   width: 100%;
   height: 100%;

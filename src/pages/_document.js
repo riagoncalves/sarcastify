@@ -1,14 +1,15 @@
 import Document, { Head, Main, NextScript } from "next/document";
 import Header from '../components/header';
+import Footer from '../components/footer';
 
 export default class CustomDocument extends Document {
   render() {
     return (
       <html lang="en">
-        <Head />
+        <Head/>
         <body>
           <Header/>
-          <Main />
+          <Main/>
           <NextScript />
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
           <script
@@ -20,6 +21,7 @@ export default class CustomDocument extends Document {
                 });`
             }}
           />
+          <Footer/>
         </body>
       </html>
     );
