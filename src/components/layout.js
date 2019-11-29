@@ -24,7 +24,7 @@ const Layout = props => (
       <title>Sarcastify | Meme Factory</title>
       <meta name="description" content="Turn your text into a sarcastic one."/>
       <meta name="keywords" content="sarcastic,meme, sarcastify" />
-      <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet"/>
     </Head>
     <div className="container">
       {props.children}
