@@ -28,6 +28,8 @@ let common = {
       btn.addEventListener("click", () => {
         this.copyToClipboard(result.innerText);
       });
+
+      console.log("%c| 🔧 Developed by riagoncalves.dev |", "background: #111; color: #eee; border-radius:2px; padding:.75rem;");
     } 
   }
 }
