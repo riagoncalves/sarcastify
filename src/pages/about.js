@@ -1,7 +1,7 @@
 import Layout from '../components/layout';
 import Link from 'next/link';
 
-let age = () => {
+const age = () => {
   let diff =(Date.now() - new Date("October 22, 1997").getTime()) / 1000;
   diff /= (60 * 60 * 24);
   return Math.abs(Math.round(diff/365.25));

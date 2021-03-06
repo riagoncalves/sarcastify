@@ -4,9 +4,9 @@ String.prototype.sarcastic = function() {
     .join("");
 };
 
-let common = {
+const common = {
   copyToClipboard: (value) => {
-    let tempInput = document.createElement("input");
+    const tempInput = document.createElement("input");
     tempInput.style = "position: absolute; left: -1000px; top: -1000px";
     tempInput.value = value;
     document.body.appendChild(tempInput);
@@ -16,7 +16,7 @@ let common = {
   },
 
   init() {
-    let btn = document.querySelector("button"),
+    const btn = document.querySelector("button"),
     input = document.querySelector("input"),
     result = document.querySelector(".result");
 
