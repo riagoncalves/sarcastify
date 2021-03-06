@@ -74,11 +74,11 @@ button {
   font-weight: $sbold;
   font-size: .9rem;
   transition: all 300ms;
-  box-shadow: 10px 21px 20px -12px rgba(0,0,0,0.57);
+  border: 2px solid $black;
 
   &:hover {
-    transform: scale(.9);
-    box-shadow: none;
+    color: $black;
+    background-color: $white;
   }
 }
 

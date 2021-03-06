@@ -27,6 +27,9 @@ let common = {
       
       btn.addEventListener("click", () => {
         this.copyToClipboard(result.innerText);
+        btn.innerText = "Text Copied";
+
+        setTimeout(() => { btn.innerText = "Copy" }, 1000);
       });
 
       console.log("%c| 🔧 Developed by riagoncalves.dev |", "background: #111; color: #eee; border-radius:2px; padding:.75rem;");
