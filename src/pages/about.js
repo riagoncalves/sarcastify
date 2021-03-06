@@ -14,7 +14,7 @@ export default function About() {
         <div>
           <h3>Why to use this?🤔</h3>
           <p>It is exceedingly boring to type in the "<a href="https://knowyourmeme.com/memes/mocking-spongebob" target="_blank" rel="noopener">spongemock</a>" meme format.</p>
-          <p>Now you can write as much as you want and just copypasta to your memes at the end.</p>
+          <p>Now you can write as much as you want and just copy paste to your memes at the end.</p>
         </div>
         <div>
           <h3>Developed by who?😎</h3>
