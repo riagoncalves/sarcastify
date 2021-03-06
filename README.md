@@ -4,6 +4,8 @@
 
 * Run `yarn` to install node_modules
 
-* To start developing run `yarn start`
+* To start developing run `yarn dev`
 
 * To get a build run `yarn build`
+
+* To deploy run `yarn deploy`
