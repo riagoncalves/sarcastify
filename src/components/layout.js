@@ -12,18 +12,20 @@ const Layout = props => (
       <link rel='shortcut icon' type='image/x-icon' href='https://sarcastify.s3-eu-west-1.amazonaws.com/favicon.ico'/>
 
       <meta property="og:title" content="Sarcastify | Meme Factory"/>
-      <meta property="og:description" content="Turn your text into a sarcastic one."/>
+      <meta property="og:description" content="Transform your text into a sarcastic meme! Create hilarious content instantly."/>
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Sarcastify | Meme Factory"/>
       <meta property="og:image" content="https://sarcastify.s3-eu-west-1.amazonaws.com/thumbnail.jpg"/>
+      <meta property="og:url" content="YourWebsiteURLHere"/>
 
       <meta name="twitter:title" content="Sarcastify | Meme Factory"/>
-      <meta name="twitter:description" content="Turn your text into a sarcastic one."/>
+      <meta name="twitter:description" content="Transform your text into a sarcastic meme! Create hilarious content instantly."/>
       <meta name="twitter:image" content="https://sarcastify.s3-eu-west-1.amazonaws.com/thumbnail.jpg"/>
+      <meta name="twitter:site" content="@YourTwitterHandle"/>
 
       <title>Sarcastify | Meme Factory</title>
-      <meta name="description" content="Turn your text into a sarcastic one."/>
-      <meta name="keywords" content="sarcastic,meme, sarcastify" />
+      <meta name="description" content="Transform your text into a sarcastic meme! Create hilarious content instantly."/>
+      <meta name="keywords" content="sarcastic, meme, sarcastify, create meme, sarcastic text" />
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet"/>
     </Head>
     <div className="container">
